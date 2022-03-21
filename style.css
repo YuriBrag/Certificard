@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  border-radius: 20px;
+  margin: 40px;
+  box-shadow: 2px 2px 2px #0e1d2f;
+  padding: 20px;
+}
+.fotoPerfil {
+  width: 158px;
+  height: 160px;
+  left: 154px;
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
+  border-radius: 460px;
+  margin: 10px;
+}
+.text {
+  margin-top: 50px;
+  /*   margin: 10px; */
+  font-weight: 700;
+  font-size: 36px;
+}
+.text2 {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.botaoTema {
+  height: 25px;
+  border-radius: 30px;
+}
+main {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+}
+.projetos-titulo {
+  margin-left: 20px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+.item-projeto {
+  margin-left: 40px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+}
+.item-projeto a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.redes-sociais {
+  margin-top: 10px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 6px;
+}
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .list {
+  color: #1c1c1c;
+}
+
+/* .dark .tema button {
+  background: #1c1c1c;
+} */
